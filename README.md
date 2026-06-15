@@ -1,6 +1,6 @@
 # Fox Eye — First Person Cockpit View for All-Range Mode
 
-**Author:** Butley  
+**Author:** Flame-Lurker  
 **Version:** 1.0  
 **Compatible with:** Starship 2.0.0 (Star Fox 64 PC Port)
 
@@ -39,7 +39,9 @@ To uninstall, delete the modded `Starship.exe` and restore your backup.
 - This mod replaces the game executable. It does not modify any game data files or your save data.
 - Built and tested on Starship 2.0.0 (Windows). Compatibility with other versions is not guaranteed.
 - This is an unofficial mod and is not affiliated with the Starship development team.
+## Notes
 
+*Developed with assistance from Claude (Anthropic). I am not a coder.*
 ---
 
 ## Changelog
