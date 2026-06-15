@@ -39,11 +39,26 @@ To uninstall, delete the modded `Starship.exe` and restore your backup.
 - This mod replaces the game executable. It does not modify any game data files or your save data.
 - Built and tested on Starship 2.0.0 (Windows). Compatibility with other versions is not guaranteed.
 - This is an unofficial mod and is not affiliated with the Starship development team.
-## Notes
 
-*Developed with assistance from Claude (Anthropic). I am not a coder.*
+*Developed with assistance from Claude (Anthropic). This is my first mod and I'm not a coder*
+
 ---
 
+## Source & Changes
+
+This mod modifies the Starship source code (https://github.com/HarbourMasters/Starship). The following files were changed:
+
+**New files:**
+- `src/mods/firstperson360.c` — the cockpit camera logic for all-range mode
+- `src/port/resource/type/audio/AudioSequence.h/.cpp` — audio resource type required for the game to boot with the mod active
+- `src/port/resource/importers/audio/SequenceFactory.h/.cpp` — audio resource loader required for the game to boot with the mod active
+
+**Modified files:**
+- `src/engine/fox_play.c` — routes the camera to the new cockpit view when C-Up is pressed in all-range mode
+- `src/engine/fox_display.c` — renders the cockpit interior during all-range mode and correctly orients the camera during aerobatic maneuvers
+- `src/port/Engine.cpp` — registers the audio resource loader
+
+No game data files, save files, or assets are modified. The only change to the player experience is the new camera behavior when pressing C-Up in all-range mode.
 ## Changelog
 
 **1.0** — Initial release. First-person cockpit view in all-range mode.
