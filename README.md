@@ -40,7 +40,7 @@ To uninstall, delete the modded `Starship.exe` and restore your backup.
 - Built and tested on Starship 2.0.0 (Windows). Compatibility with other versions is not guaranteed.
 - This is an unofficial mod and is not affiliated with the Starship development team.
 
-*Developed with assistance from Claude (Anthropic). This is my first mod and I'm not a coder*
+*Developed with assistance from Claude (Anthropic).
 
 ---
 
